@@ -1,7 +1,6 @@
 package com.example.ikm;
 
 //import com.fasterxml.jackson.core.JsonFactory;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -17,6 +16,7 @@ public class MealPreparation {
 
 	public static void main(String[] args) {
 		
+		// Test recipe to try out code: can be deleted in later stages
 		Ingredient[] ingredientList = new Ingredient[2];
 		ingredientList[0] = new Ingredient();
 		ingredientList[0].name = "lettuce";
@@ -27,15 +27,18 @@ public class MealPreparation {
 		String[] ingredientTypes = {"vegetables", "dairy", "meat"};
 		Food testRecipe = new Food("9999", "Simple salad", 20, ingredientList, "add the ingredients and mix in a bowl", 2,
 				"add some chilli for an extra punch.", "Side dish", "other", true);
+		Drink testRecipe2 = new Drink("9999", "Simple salad", 20, ingredientList, "add the ingredients and mix in a bowl", 2,
+				"add some chilli for an extra punch.", "Side dish", "other");
 		AdjustRecipe adjust = new AdjustRecipe();
 		adjust.adjustRecipe(testRecipe, s, ingredientTypes);
+		// End of testing code to adjust recipe.
 		
 		System.out.println("Welcome to the Meal Prepper!");
 		System.out.println("What would you like to do?");
 		System.out.println("Press 'a' if you want a meal suggestion based on what's in your fridge"
 				+ "\nPress 'b' if you want a random meal suggestion" + "\nPress 'c' to show all recipes");
 		startChoice();
-		// JsonFactory jsonFactory = new JsonFactory();
+		//JsonFactory jsonFactory = new JsonFactory();
 
 	}
 

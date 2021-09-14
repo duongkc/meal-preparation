@@ -10,10 +10,12 @@ public abstract class Recipe {
 	final String hint;
 	final String dish;
 	final String kitchen;
+	// Deze boolean moet hier staan om in addIngredient methode de status van het recept te
+	// kunnen aanpassen als er vlees wordt toegevoegd.
 	boolean vegetarian;
 
 	public Recipe(String id, String name, int duration, Ingredient[] ingredients, String preparation, int portions,
-			String hint, String dish, String kitchen, boolean vegetarian) {
+			String hint, String dish, String kitchen) {
 		this.id = id;
 		this.name = name;
 		this.duration = duration;
@@ -23,6 +25,5 @@ public abstract class Recipe {
 		this.hint = hint;
 		this.dish = dish;
 		this.kitchen = kitchen;
-		this.vegetarian = vegetarian;
 	}
 }

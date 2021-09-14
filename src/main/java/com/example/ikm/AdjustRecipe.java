@@ -6,7 +6,6 @@ public class AdjustRecipe {
 
 	void adjustRecipe(Recipe recipe, Scanner sc, String[] ingredientTypes) {
 		System.out.println("You are adjusting the recipe for: " + recipe.name);
-		//Scanner sc = new Scanner(System.in);
 		System.out.println("Do you want to add an ingredient? Type 'y' for yes and 'n' for no.");
 		String input = sc.nextLine();
 		if (input.equals("y")) {
@@ -27,12 +26,11 @@ public class AdjustRecipe {
 		if (input.equals("y")) {
 			changePreparation(recipe, sc);
 		}
-		//sc.close();
 	}
 
 	void addIngredient(Recipe recipe, Scanner sc, String[] ingredientTypes) {
 		System.out.println("Please insert the name of the ingredient.");
-		// Dit voeg nog alleen het ingredient toe, je moet ook kunnen toevoegen hoeveel
+		// Dit voegt nog alleen het ingredient toe, je moet ook kunnen toevoegen hoeveel
 		// er per persoon door moet. Of houden we dat bij in de naam?
 		String inputIngredientName = sc.nextLine();
 
@@ -65,13 +63,15 @@ public class AdjustRecipe {
 	}
 
 	void changePreparation(Recipe recipe, Scanner sc) {
-		System.out.println("Please insert the new preparation");
+		System.out.println("Please insert the new preparation. Type 'done' when you are done.");
 		String newPreparation = "";
-		// checken of dit werkt, niet getest.
-		//while (sc.hasNextLine()) {
-		//	newPreparation += sc.nextLine();
-		//}
-		newPreparation = sc.nextLine();
+		while (sc.hasNextLine()) {
+			String nextLine = sc.nextLine();
+			if(nextLine.equals("done")) {
+				break;
+			}
+			newPreparation += nextLine + "\n";
+		}
 		System.out.println("New preparation: " + newPreparation);
 		recipe.preparation = newPreparation;
 	}
