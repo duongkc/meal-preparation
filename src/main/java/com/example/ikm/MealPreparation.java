@@ -1,6 +1,10 @@
 package com.example.ikm;
 
+import com.fasterxml.jackson.core.JsonFactory;
+
 import java.util.Scanner;
+
+
 
 /**
  * Class to
@@ -20,6 +24,8 @@ public class MealPreparation
                 "\nPress 'b' if you want a random meal suggestion" +
                 "\nPress 'c' to show all recipes");
         startChoice();
+        JsonFactory jsonFactory = new JsonFactory();
+
     }
 
     private static void startChoice() {
@@ -36,6 +42,7 @@ public class MealPreparation
 
     private static void run(String pick) {
         System.out.println("You've picked something: " + pick);
+
     }
 
     static void wait(int ms){
