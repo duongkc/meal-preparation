@@ -1,6 +1,5 @@
 package com.example.ikm;
 
-//import com.fasterxml.jackson.core.JsonFactory;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -11,12 +10,15 @@ import java.util.Scanner;
  * @author Imke, Kim, Melany, Rick
  * @version 1.0
  */
-public class MealPreparation {
-	static Scanner s = new Scanner(System.in);
+public class MealPreparation
+{
+	private static Recipe[] recipeArray;
+    static Scanner s = new Scanner(System.in);
+    
 
-	public static void main(String[] args) {
-		
-		// Test recipe to try out code: can be deleted in later stages
+    public static void main(String[] args) 
+    {
+        // Test recipe to try out code: can be deleted in later stages
 		Ingredient[] ingredientList = new Ingredient[2];
 		ingredientList[0] = new Ingredient();
 		ingredientList[0].name = "lettuce";
@@ -32,30 +34,33 @@ public class MealPreparation {
 		AdjustRecipe adjust = new AdjustRecipe();
 		adjust.adjustRecipe(testRecipe, s, ingredientTypes);
 		// End of testing code to adjust recipe.
-		
-		System.out.println("Welcome to the Meal Prepper!");
-		System.out.println("What would you like to do?");
-		System.out.println("Press 'a' if you want a meal suggestion based on what's in your fridge"
-				+ "\nPress 'b' if you want a random meal suggestion" + "\nPress 'c' to show all recipes");
-		startChoice();
-		//JsonFactory jsonFactory = new JsonFactory();
 
-	}
+    	recipeArray = new FileReader().getRecipes();
+    	
+        System.out.println("Welcome to the Meal Prepper!");
+        System.out.println("What would you like to do?");
+        System.out.println("Press 'a' if you want a meal suggestion based on what's in your fridge" +
+                "\nPress 'b' if you want a random meal suggestion" +
+                "\nPress 'c' to show all recipes");
+        startChoice();
+    }
 
-	private static void startChoice() {
-		// noinspection InfiniteLoopStatement
-		while (true) {
-			String pick = s.nextLine();
-			if ("a".equals(pick) || "b".equals(pick) || "c".equals(pick)) {
-				run(pick);
-			} else {
-				System.out.println("Please type 'a', 'b' or 'c'");
-			}
-		}
-	}
+    private static void startChoice() {
+        boolean active = true;
+        while (active) {
+            String pick = s.nextLine();
+            if ("a".equals(pick) || "b".equals(pick) || "c".equals(pick)) {
+                run(pick);
+                active = false;
+            } else {
+                System.out.println("Please type 'a', 'b' or 'c'");
+            }
+        }
 
-	private static void run(String pick) {
-		System.out.println("You've picked something: " + pick);
+    }
+
+    private static void run(String pick) {
+        System.out.println("You've picked something: " + pick);
             if ("a".equals(pick)){
                 ArrayList<String> recipeIngredients = new ArrayList<>();
 
@@ -100,6 +105,7 @@ public class MealPreparation {
             } else if ("c".equals(pick)) {
                 System.out.println("Here's a list of all available recipes: ");
             }
+
 	}
 
 	static void wait(int ms) {
@@ -109,5 +115,4 @@ public class MealPreparation {
 			Thread.currentThread().interrupt();
 		}
 	}
-
 }
