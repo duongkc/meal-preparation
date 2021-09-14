@@ -50,6 +50,7 @@ public class AdjustRecipe {
 	void changePreparation(Recipe recipe, Scanner sc) {
 		System.out.println("Please insert the new preparation");
 		String newPreparation = "";
+		// checken of dit werkt, niet getest.
 		while(sc.hasNextLine()) {
 			newPreparation += sc.nextLine();
 		}
