@@ -12,7 +12,7 @@
         "ingredients": [
             "2 bulbs of garlic",
             "1 potato",
-            "1 laurier leaf",
+            "1 bay leaf",
             "1L of chicken stock",
             "3 egg yolks",
             "Pinch of cayenne pepper",
@@ -20,7 +20,7 @@
         ],
         "preparation": [
             "Cut the garlic. Peel and cut the potato in cubes",
-            "Sauté the garlic and potato. Add the laurier leaf and pepper.",
+            "Sauté the garlic and potato. Add the bay leaf and pepper.",
             "Deglaze with the stock",
             "Cook the soup with the lit until done",
             "Remove the leaf and blend",
@@ -96,7 +96,8 @@
             "Add the diced bell pepper and heat it for a few minutes"
         ],
         "image": "https://www.eatyourselfskinny.com/wp-content/uploads/2018/01/beef-stew-111.jpg",
-        "source": "https://www.ah.nl/kookschrift/recept?id=610026"
+        "source": "https://www.ah.nl/kookschrift/recept?id=610026",
+        "tags": ["pork belly", "carrot", "potato", "green bell pepper", "canned tomato", "paprika powder", "dried oregano", "sriracha"]
     },
     {
         "itemId": "0003",
@@ -124,7 +125,8 @@
             "Top with ginger beer and garnish"
         ],
         "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/el-diablo-recept-1585833147.jpg",
-        "source": ""
+        "source": "",
+        "tags": ["tequila", "creme de cassis", "lime", "ginger beer"]
     },
     {
         "itemId": "0004",
@@ -153,7 +155,8 @@
             "Put the cauliflower in a bowl and pour the salsa verde over it"
         ],
         "image": "https://moorlandseater.com/wp-content/uploads/2020/05/salsa-verde-with-roasted-cauliflower-moorlands-DSC05675sq.jpg",
-        "source": "https://www.ah.nl/allerhande/recept/R-R983894/bloemkool-met-salsa-verde"
+        "source": "https://www.ah.nl/allerhande/recept/R-R983894/bloemkool-met-salsa-verde",
+        "tags": ["cauliflower", "fresh basil", "olive oil", "red wine vinegar", "dijon mustard", "fresh parsley", "sweet and sour pickle", "capers", "garlic"]
     },
     {
         "itemId": "0005",
@@ -190,7 +193,8 @@
             "Garnish with Parmigiano shavings, fresh thyme and crispy bacon if desired"
         ],
         "image": "https://bellalimento.com/wp-content/uploads/2014/03/MG_2563-683x1024.jpg",
-        "source": "https://bellalimento.com/2014/03/03/creamy-carrot-and-parm-pasta/"
+        "source": "https://bellalimento.com/2014/03/03/creamy-carrot-and-parm-pasta/",
+        "tags": ["carrot", "red bell pepper", "garlic", "olive oil", "chicken stock", "pasta", "parmesan cheese", "fresh thyme", "crispy bacon"]
     },
     {
         "itemId": "0006",
@@ -218,7 +222,8 @@
             "[Drink responsibly!]"
         ],
         "image": "https://i.pinimg.com/originals/56/2b/d6/562bd6d3ffd4599929c4f3d28c140e33.jpg",
-        "source": "https://tipsybartender.com/recipe/creamy-nutella-vodka/"
+        "source": "https://tipsybartender.com/recipe/creamy-nutella-vodka/",
+        "tags": ["nutella", "sugar", "cream", "vodka", "whipped cream", "strawberry"]
     },
     {
         "itemId": "0007",
@@ -249,7 +254,8 @@
             "Add the peas and mushrooms and cook for a few minutes"
         ],
         "image": "https://i1.wp.com/heerlijkehappen.nl/wp-content/uploads/2020/08/img_6727-scaled.jpg?resize=676%2C320&ssl=1",
-        "source": ""
+        "source": "",
+        "tags": ["blade steak", "chestnut mushroom", "red wine", "beef stock", "garlic", "shallot", "dried thyme", "peas", "butter"]
     },
     {
         "itemId": "0008",
@@ -290,7 +296,8 @@
             " Enjoy your meal!"
         ],
         "image": "https://chickslovefood.com/wp-content/uploads/2015/10/shakshuka-eindfoto-1-CLF-scaled.jpg",
-        "source": "https://www.ah.nl/allerhande/recept/R-R931346/yotam-ottolenghi-s-shakshuka"
+        "source": "https://www.ah.nl/allerhande/recept/R-R931346/yotam-ottolenghi-s-shakshuka",
+        "tags": ["onion", "red bell pepper", "yellow bell pepper", "fresh thyme", "fresh coriander", "fresh parsley", "tomato", "cumin", "cane sugar", "bay leaf", "saffron", "cayenne pepper", "eggs", "olive oil", "sriracha"]
     },
     {
         "itemId": "0009",
@@ -315,7 +322,8 @@
             "Mix everything together in a bowl"
         ],
         "image": "https://1.bp.blogspot.com/-nyblT7ME030/U3IwxUSZ0xI/AAAAAAAAbzA/e_sNPp620x4/s640/Cucumber+and+Onion+Vinegar+Salad+MS.jpg",
-        "source": "https://www.youtube.com/watch?v=L0FHOLPJYs8&t=72s"
+        "source": "https://www.youtube.com/watch?v=L0FHOLPJYs8&t=72s",
+        "tags": ["onion", "cucumber", "vinegar", "sugar", "star anise"]
     },
     {
         "itemId": "0010",
@@ -349,7 +357,8 @@
             "Serve with the rucola added on top and add salt and pepper to taste"
         ],
         "image": "https://www.fit.nl/wp-content/uploads/2017/02/Chiabatta-recept.jpg",
-        "source": "https://www.fit.nl/recept/ciabatta-kip"
+        "source": "https://www.fit.nl/recept/ciabatta-kip",
+        "tags": ["chicken breast", "ciabatta", "tomato", "onion", "rucola", "italian herbs", "olive oil"]
     },
     {
         "itemId": "0011",
@@ -380,7 +389,8 @@
             "Add the herbs, peas, oil and vinegar to the bulgur. Taste test it and add pomegranate seeds afterwards"
         ],
         "image": "https://baketheneat.com/wp-content/uploads/2019/02/Pea-and-Mint-Bulgur-Wheat-Salad-2-500x375.jpg",
-        "source": ""
+        "source": "",
+        "tags": ["peas", "bulgur", "mint leaves", "fresh parsley", "olive oil", "apple cider vinegar", "pomegranate"]
     },
     {
         "itemId": "0012",
@@ -415,7 +425,8 @@
             "Spread half of the cheese sauce on the bottom of a prepared baking dish. Top with 3 lasagna sheets. Spread one third of the ricotta mixture and half of the mushrooms over lasagna sheets. Spoon one fourth of the remaining cheese sauce on overtop. Place another 3 lasagna sheets on top and repeat with layers of ricoota mushrooms and cheese sauce. Repeat once more with the exception of the mushrooms, ending with 3 lasagna sheets. Spoon remaining cheese sauce on top. Sprinkle remaining parmesan on top. Bake uncovered for 45 minutes, until golden and bubbly"
         ],
         "image": "https://www.halfbakedharvest.com/wp-content/uploads/2018/12/White-Pesto-Spinach-Lasagna-1-700x1050.jpg",
-        "source": ""
+        "source": "",
+        "tags": ["olive oil", "baby bella mushroom", "butter", "flour", "milk", "chicken stock", "parmesan cheese", "spinach", "pesto", "skim ricotta cheese", "lasagne sheets"]
     },
     {
         "itemId": "0013",
@@ -456,7 +467,8 @@
             "Start dishing out soup, protein and vegetables onto your own soup bowl. Serve with steamed rice (& with other Korean side dishes)."
         ],
         "image": "https://mykoreankitchen.com/wp-content/uploads/2016/02/1.-Korean-Army-Stew-Budae-Jjigae.webp",
-        "source": "https://mykoreankitchen.com/army-stew-budae-jjigae/"
+        "source": "https://mykoreankitchen.com/army-stew-budae-jjigae/",
+        "tags": ["chicken stock", "spam", "frankfurter sausage", "tofu", "enoki mushroom", "king oyster mushroom", "shiitake mushroom", "kimchi", "instant ramen", "rice cake", "green onion", "american cheese", "gochugaru", "rice wine", "mirin", "soy sauce", "garlic", "sugar", "gochujang"]
     },
     {
         "itemId": "0014",
@@ -481,7 +493,8 @@
             "Filter the liqueur with a coffee filter and put it in a bottle"
         ],
         "image": "https://c2.staticflickr.com/4/3107/2735383630_967c757a17_z.jpg?zz=1",
-        "source": "https://www.aziatische-ingredienten.nl/citroengras-gember-likeur/"
+        "source": "https://www.aziatische-ingredienten.nl/citroengras-gember-likeur/",
+        "tags": ["vodka", "brandy", "ginger", "lemongrass", "sugar"]
     },
     {
         "itemId": "0015",
@@ -505,7 +518,8 @@
             "Filter the liqueur with a small sieve"
         ],
         "image": "https://c2.staticflickr.com/4/3107/2735383630_967c757a17_z.jpg?zz=1",
-        "source": ""
+        "source": "",
+        "tags": ["vodka", "ginger", "honey"]
     },
     {
         "itemId": "0016",
@@ -526,7 +540,8 @@
             "Combine all ingredients in a shaker with ice. Shake and strain it in a martini glass. It can also be  poured in another glass with ice. "
         ],
         "image": "https://i.ytimg.com/vi/DFVgfprfrfg/maxresdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=DFVgfprfrfg"
+        "source": "https://www.youtube.com/watch?v=DFVgfprfrfg",
+        "tags": ["advocaat", "butterscotch caramel", "milk"]
     },
     {
         "itemId": "0017",
@@ -563,7 +578,8 @@
             "[Enjoy!]"
         ],
         "image": "https://i.pinimg.com/originals/a9/24/9b/a9249b88cb5ad7cf7dc37dcc357933b1.jpg",
-        "source": "https://tasty.co/recipe/color-changing-mojito"
+        "source": "https://tasty.co/recipe/color-changing-mojito",
+        "tags": ["red cabbage", "sugar", "lime", "mint leaves", "white rum"]
     },
     {
         "itemId": "0018",
@@ -585,7 +601,8 @@
             "Pour all ingredients in a cup and add a scoop of vanilla ice cream or whipped cream on top. "
         ],
         "image": "https://creative-culinary.com/wp-content/uploads/mexican-coffee-3.jpg",
-        "source": ""
+        "source": "",
+        "tags": ["tequila", "kahlua", "coffee", "vanilla ice cream", "whipped cream"]
     },
     {
         "itemId": "0019",
@@ -598,7 +615,7 @@
         "kitchen": "Other",
         "hint": "",
         "ingredients": [
-            "Whisky to taste",
+            "Whiskey to taste",
             "1 cup strong brewed coffee",
             "1 scoop vanilla ice cream or whipped cream"
         ],
@@ -606,7 +623,8 @@
             "Pour all ingredients in a cup and add a scoop of vanilla ice cream or whipped cream on top. "
         ],
         "image": "https://www.cocktailicious.nl/wp-content/uploads/2020/12/Dutch-coffee.jpg",
-        "source": ""
+        "source": "",
+        "tags": ["whiskey", "coffee", "vanilla ice cream", "whipped cream"]
     },
     {
         "itemId": "0020",
@@ -627,7 +645,8 @@
             "Pour all ingredients in a cup and add a scoop of vanilla ice cream or whipped cream on top. "
         ],
         "image": "https://cdn.shopify.com/s/files/1/0453/1381/8776/files/italiancoffee_480x480.jpg?v=1608199794",
-        "source": ""
+        "source": "",
+        "tags": ["amaretto", "coffee", "vanilla ice cream", "whipped cream"]
     },
     {
         "itemId": "0021",
@@ -654,7 +673,8 @@
             "Garnish with a slice of beet root or a slice of lime."
         ],
         "image": "https://uk.thebar.com/assets/en-gb/Images/AW/beetroot-daiquiri$$069A0000002OQxKIAW.jpg?maxheight=360&maxwidth=540&quality=85",
-        "source": "https://uk.thebar.com/recipe/captain-morgan-beetroot-daiquiri"
+        "source": "https://uk.thebar.com/recipe/captain-morgan-beetroot-daiquiri",
+        "tags": ["white rum", "lime", "beetroot juice"]
     },
     {
         "itemId": "0022",
@@ -681,6 +701,7 @@
             "Place 2 lime wedges in each glass and serve with a straw and a pestle."
         ],
         "image": "https://static.ah.nl/static/recepten/img_077571_1600x_JPG.jpg",
-        "source": "https://www.ah.nl/allerhande/recept/R-R1186809/ginger-shandy-biercocktail"
+        "source": "https://www.ah.nl/allerhande/recept/R-R1186809/ginger-shandy-biercocktail",
+        "tags": ["lime", "ginger syrup", "ginger ale", "beer"]
     }
 ]
