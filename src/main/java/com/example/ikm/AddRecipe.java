@@ -99,7 +99,7 @@ public class AddRecipe {
 			}
 			preparations = addStringtoArray(preparations, nextLine);
 		}
-		recipe.setPreperation(preparations);
+		recipe.setPreparation(preparations);
 		
 		// Optionally add hint to recipe
 		System.out.println("Would you like to add a hint? Type 'y' for yes and 'n' for no.");

@@ -14,9 +14,10 @@ public class Recipe
 	private String kitchen;
 	private String hint;
 	private String[] ingredients;
-	private String[] preperations;
+	private String[] preparations;
 	private String image;
 	private String source;
+	private String[] tags;
 	private RecipeController recipeController = new RecipeController();
 	
 	public Recipe()
@@ -25,7 +26,7 @@ public class Recipe
 		// I noticed that in the ingredients there's also texts like "[main]" and "[Sauce]" etc which are parts of the recipe;
 	}
 	
-	public Recipe(int itemId, int type, int duration, int portions, boolean vegetarian, String name, String dish, String kitchen, String hint, String[] ingredients, String[] preperations) 
+	public Recipe(int itemId, int type, int duration, int portions, boolean vegetarian, String name, String dish, String kitchen, String hint, String[] ingredients, String[] preparations, String[] tags)
 	{
 		this.itemId = itemId;
 		this.type = type;
@@ -37,7 +38,8 @@ public class Recipe
 		this.kitchen = kitchen;
 		this.hint = hint;
 		this.ingredients = ingredients;
-		this.preperations = preperations;
+		this.preparations = preparations;
+		this.tags = tags;
 		// Ignoring "image" & "source" since this is used by user input.
 	}
 	
@@ -153,14 +155,14 @@ public class Recipe
 		return recipeController.convertStringArrayToIngredientArray(ingredients);
 	}
 	
-	public void setPreperation(String[] p)
+	public void setPreparation(String[] p)
 	{
-		preperations = p;
+		preparations = p;
 	}
 	
-	public String[] getPreperations()
+	public String[] getPreparations()
 	{
-		return preperations;
+		return preparations;
 	}
 	
 	public void setImage(String i)
@@ -172,7 +174,15 @@ public class Recipe
 	{
 		source = s;
 	}
-	
+
+	public String[] getTags() {
+		return tags;
+	}
+
+	public void setTags(String[] tags) {
+		this.tags = tags;
+	}
+
 	void adjustRecipe(Scanner sc, String[] ingredientTypes) {
 		System.out.println("You are adjusting the recipe for: " + this.getName());
 		System.out.println("Do you want to add an ingredient? Type 'y' for yes and 'n' for no.");
@@ -246,7 +256,7 @@ public class Recipe
 			newPreparations = addStringtoArray(newPreparations, nextLine);
 		}
 		System.out.println("New preparation: " + newPreparations);
-		this.setPreperation(newPreparations);
+		this.setPreparation(newPreparations);
 	}
 
 	private String[] addStringtoArray(String[] array, String string) {
