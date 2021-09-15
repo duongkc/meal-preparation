@@ -23,7 +23,7 @@ public class MealPreparation {
 		System.out.println("What would you like to do?");
 		System.out.println("Press 'a' if you want a meal suggestion based on what's in your fridge"
 				+ "\nPress 'b' if you want a random meal suggestion" + "\nPress 'c' to show all recipes"
-				+ "\nPress 'd' to add a new recipe or to adjust an existing recipe.");
+				+ "\nPress 'd' to adjust a recipe." + "\nPress 'e' to convert measurements.");
 		startChoice();
 	}
 
@@ -31,11 +31,12 @@ public class MealPreparation {
 		boolean active = true;
 		while (active) {
 			String pick = s.nextLine();
-			if ("a".equals(pick) || "b".equals(pick) || "c".equals(pick) || "d".equals(pick)) {
+			if ("a".equals(pick) || "b".equals(pick) || "c".equals(pick) || "d".equals(pick) || "e".equals(pick)) {
 				run(pick);
 				active = false;
 			} else {
-				System.out.println("Please type 'a', 'b' or 'c'");
+				System.out.println("Please type 'a', 'b', 'c', 'd' or 'e'");
+
 			}
 		}
 
@@ -86,6 +87,7 @@ public class MealPreparation {
 		} else if ("c".equals(pick)) {
 			System.out.println("Here's a list of all available recipes: ");
 		} else if ("d".equals(pick)) {
+
 			System.out.println("Type 'a' to add a new recipe and 'b' to adjust an existing recipe");
 			String ans = s.nextLine();
 			
@@ -124,6 +126,9 @@ public class MealPreparation {
 
 		}
 
+		} else if ("e".equals(pick)) {
+			new Converter().convert();
+		}
 	}
 
 	static void wait(int ms) {
