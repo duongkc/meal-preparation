@@ -26,4 +26,11 @@ public class NutrientReader extends FileReader {
         Gson gson = new Gson();
         nutritionArray = gson.fromJson(fileText, Nutrition[].class);
     }
+
+//    Also a test method that can be ignored
+    void testing(){
+        Nutrition n = nutritionArray[1];
+        System.out.println(n.getItemId());
+        System.out.println(n);
+    }
 }
