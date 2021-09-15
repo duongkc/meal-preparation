@@ -5,7 +5,6 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
-
 import com.google.gson.Gson;
 
 public class FileReader 
@@ -16,7 +15,7 @@ public class FileReader
 	
 	public FileReader()
 	{
-		filePath = "recipe.json";
+		filePath = "C:\\Users\\imke_\\Documents\\IT-traineeship\\EclipseWorkspace\\meal-preparation\\recipe.json";
 		fileText = getJsonAsString(filePath);
 		
 		readJson();

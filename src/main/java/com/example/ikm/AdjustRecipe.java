@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AdjustRecipe {
 
 	void adjustRecipe(Recipe recipe, Scanner sc, String[] ingredientTypes) {
-		System.out.println("You are adjusting the recipe for: " + recipe.name);
+		System.out.println("You are adjusting the recipe for: " + recipe.getName());
 		System.out.println("Do you want to add an ingredient? Type 'y' for yes and 'n' for no.");
 		String input = sc.nextLine();
 		if (input.equals("y")) {
@@ -50,42 +50,52 @@ public class AdjustRecipe {
 		if (idx >= 0 & idx < ingredientTypes.length) {
 			inputIngredient.type = ingredientTypes[idx];
 			if(inputIngredient.type.equals("meat")) {
-				recipe.vegetarian = false;
+				recipe.setVegetarian(false);
 			}
 		}
 		
-		Ingredient[] newIngredients = new Ingredient[recipe.ingredients.length + 1];
-		for (int i = 0; i < recipe.ingredients.length; i++) {
-			newIngredients[i] = recipe.ingredients[i];
+		//Ingredient[] newIngredients = new Ingredient[recipe.getIngredients().length + 1];
+		String[] newIngredients = new String[recipe.getIngredients().length + 1];
+		for (int i = 0; i < recipe.getIngredients().length; i++) {
+			newIngredients[i] = recipe.getIngredients()[i];
 		}
-		newIngredients[recipe.ingredients.length] = inputIngredient;
-		recipe.ingredients = newIngredients;
+		newIngredients[recipe.getIngredients().length] = inputIngredient.name;
+		recipe.setIngredients(newIngredients);
 	}
 
 	void changePreparation(Recipe recipe, Scanner sc) {
 		System.out.println("Please insert the new preparation. Type 'done' when you are done.");
-		String newPreparation = "";
+		String[] newPreparations = new String[0];
 		while (sc.hasNextLine()) {
 			String nextLine = sc.nextLine();
 			if(nextLine.equals("done")) {
 				break;
 			}
-			newPreparation += nextLine + "\n";
+			addStringtoArray(newPreparations, nextLine);
 		}
-		System.out.println("New preparation: " + newPreparation);
-		recipe.preparation = newPreparation;
+		System.out.println("New preparation: " + newPreparations);
+		recipe.setPreperation(newPreparations);
+	}
+
+	private String[] addStringtoArray(String[] array, String string) {
+		String[] newArray = new String[array.length + 1];
+		for(int i = 0; i < array.length; i++) {
+			newArray[i] = array[i];
+		}
+		newArray[array.length] = string;
+		return newArray;
 	}
 
 	void changePortions(Recipe recipe, Scanner sc) {
 		System.out.println("Please insert the new number of portions.");
 		int newPortions = Integer.parseInt(sc.nextLine());
-		recipe.portions = newPortions;
+		recipe.setPortions(newPortions);
 	}
 
 	void changeDuration(Recipe recipe, Scanner sc) {
 		System.out.println("Please insert the new duration.");
 		int newDuration = Integer.parseInt(sc.nextLine());
-		recipe.duration = newDuration;
+		recipe.setDuration(newDuration);
 	}
 
 }

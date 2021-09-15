@@ -18,30 +18,13 @@ public class MealPreparation
 
     public static void main(String[] args) 
     {
-        // Test recipe to try out code: can be deleted in later stages
-		Ingredient[] ingredientList = new Ingredient[2];
-		ingredientList[0] = new Ingredient();
-		ingredientList[0].name = "lettuce";
-		ingredientList[0].type = "vegetable";
-		ingredientList[1] = new Ingredient();
-		ingredientList[1].name = "tomato";
-		ingredientList[1].type = "vegetable";
-		String[] ingredientTypes = {"vegetables", "dairy", "meat"};
-		Food testRecipe = new Food("9999", "Simple salad", 20, ingredientList, "add the ingredients and mix in a bowl", 2,
-				"add some chilli for an extra punch.", "Side dish", "other", true);
-		Drink testRecipe2 = new Drink("9999", "Simple salad", 20, ingredientList, "add the ingredients and mix in a bowl", 2,
-				"add some chilli for an extra punch.", "Side dish", "other");
-		AdjustRecipe adjust = new AdjustRecipe();
-		adjust.adjustRecipe(testRecipe, s, ingredientTypes);
-		// End of testing code to adjust recipe.
-
     	recipeArray = new FileReader().getRecipes();
     	
         System.out.println("Welcome to the Meal Prepper!");
         System.out.println("What would you like to do?");
         System.out.println("Press 'a' if you want a meal suggestion based on what's in your fridge" +
                 "\nPress 'b' if you want a random meal suggestion" +
-                "\nPress 'c' to show all recipes");
+                "\nPress 'c' to show all recipes" + "\nPress 'd' to adjust a recipe.");
         startChoice();
     }
 
@@ -104,6 +87,16 @@ public class MealPreparation
                 System.out.println("How about [.........]?");
             } else if ("c".equals(pick)) {
                 System.out.println("Here's a list of all available recipes: ");
+            } else if("d".equals(pick)) {
+            	System.out.println("Please enter the name of the recipe you would like to adjust.");
+            	String recipeName = s.nextLine();
+            	for(int i = 0; i < recipeArray.length; i++) {
+            		if (recipeArray[i].getName().equals(recipeName)) {
+            			String[] ingredientTypes = {"dairy", "vegetables", "meat"};
+            			recipeArray[i].adjustRecipe(s, ingredientTypes);
+            		}
+            	}
+            		
             }
 
 	}
