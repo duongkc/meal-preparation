@@ -1,0 +1,393 @@
+[
+  {
+    "itemId": "0000",
+    "nutrientsFull":
+              {
+                "calories": "933.9",
+                "fat": "40.5",
+                "carbohydrates": "102.5",
+                "protein": "43"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "223.5",
+                "fat": "10.1",
+                "carbohydrates": "25.6",
+                "protein": "10.8"
+              }
+  },
+  {
+    "itemId": "0001",
+    "nutrientsFull":
+              {
+                "calories": "1474.6",
+                "fat": "72.4",
+                "carbohydrates": "82.9",
+                "protein": "4386.2"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "737.3",
+                "fat": "36.22",
+                "carbohydrates": "41.46",
+                "protein": "70.78"
+              }
+  },
+  {
+    "itemId": "0002",
+    "nutrientsFull":
+              {
+                "calories": "1348.7",
+                "fat": "37.5",
+                "carbohydrates": "205.9",
+                "protein": "62.8"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "337.2",
+                "fat": "9.4",
+                "carbohydrates": "51.5",
+                "protein": "15.7"
+              }
+  },
+  {
+    "itemId": "0003",
+    "nutrientsFull":
+              {
+                "calories": "184",
+                "fat": "0",
+                "carbohydrates": "18.3",
+                "protein": "0.1"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "184",
+                "fat": "0",
+                "carbohydrates": "18.3",
+                "protein": "0.1"
+              }
+  },
+  {
+    "itemId": "0004",
+    "nutrientsFull":
+              {
+                "calories": "843.9",
+                "fat": "74.5",
+                "carbohydrates": "45.5",
+                "protein": "18.4"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "211",
+                "fat": "18.6",
+                "carbohydrates": "11.4",
+                "protein": "4.6"
+              }
+  },
+  {
+    "itemId": "0005",
+    "nutrientsFull":
+              {
+                "calories": "1291.3",
+                "fat": "41.6",
+                "carbohydrates": "186.9",
+                "protein": "44"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "322.8",
+                "fat": "10.4",
+                "carbohydrates": "46.7",
+                "protein": "11"
+              }
+  },
+  {
+    "itemId": "0006",
+    "nutrientsFull":
+              {
+                "calories": "3508.8",
+                "fat": "171.9",
+                "carbohydrates": "228.4",
+                "protein": "19.5"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "701.8",
+                "fat": "34.4",
+                "carbohydrates": "45.7",
+                "protein": "3.9"
+              }
+  },
+  {
+    "itemId": "0007",
+    "nutrientsFull":
+              {
+                "calories": "2137.1",
+                "fat": "109",
+                "carbohydrates": "81.3",
+                "protein": "190.1"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "534.3",
+                "fat": "27.3",
+                "carbohydrates": "20.3",
+                "protein": "47.5"
+              }
+  },
+  {
+    "itemId": "0008",
+    "nutrientsFull":
+              {
+                "calories": "1129.1",
+                "fat": "55.8",
+                "carbohydrates": "103.2",
+                "protein": "64.9"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "282.3",
+                "fat": "14",
+                "carbohydrates": "25.8",
+                "protein": "16.2"
+              }
+  },
+  {
+    "itemId": "0009",
+    "nutrientsFull":
+              {
+                "calories": "406.2",
+                "fat": "0.5",
+                "carbohydrates": "92.8",
+                "protein": "2.6"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "101.6",
+                "fat": "0.1",
+                "carbohydrates": "23.2",
+                "protein": "0.7"
+              }
+  },
+  {
+    "itemId": "0010",
+    "nutrientsFull":
+              {
+                "calories": "2720",
+                "fat": "84",
+                "carbohydrates": "276",
+                "protein": "196"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "680",
+                "fat": "21",
+                "carbohydrates": "69",
+                "protein": "49"
+              }
+  },
+  {
+    "itemId": "0011",
+    "nutrientsFull":
+              {
+                "calories": "691.6",
+                "fat": "23.7",
+                "carbohydrates": "107.4",
+                "protein": "20.7"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "113.6",
+                "fat": "4",
+                "carbohydrates": "17.9",
+                "protein": "3.5"
+              }
+  },
+  {
+    "itemId": "0012",
+    "nutrientsFull":
+              {
+                "calories": "3535.8",
+                "fat": "234.8",
+                "carbohydrates": "132.8",
+                "protein": "159.8"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "412",
+                "fat": "29.4",
+                "carbohydrates": "16.7",
+                "protein": "20"
+              }
+  },
+  {
+    "itemId": "0013",
+    "nutrientsFull":
+              {
+                "calories": "2795",
+                "fat": "152.8",
+                "carbohydrates": "228.3",
+                "protein": "130.8"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "698.7",
+                "fat": "38.2",
+                "carbohydrates": "57.1",
+                "protein": "32.7"
+              }
+  },
+  {
+    "itemId": "0014",
+    "nutrientsFull":
+              {
+                "calories": "4665",
+                "fat": "2.7",
+                "carbohydrates": "603",
+                "protein": "8.3"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "933",
+                "fat": "0.5",
+                "carbohydrates": "120.6",
+                "protein": "1.7"
+              }
+  },
+  {
+    "itemId": "0015",
+    "nutrientsFull":
+              {
+                "calories": "738",
+                "fat": "0.5",
+                "carbohydrates": "72.3",
+                "protein": "1.3"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "738",
+                "fat": "0.5",
+                "carbohydrates": "72.3",
+                "protein": "1.3"
+              }
+  },
+  {
+    "itemId": "0016",
+    "nutrientsFull":
+              {
+                "calories": "203.6",
+                "fat": "3",
+                "carbohydrates": "24.3",
+                "protein": "3"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "203.6",
+                "fat": "3",
+                "carbohydrates": "24.3",
+                "protein": "3"
+              }
+  },
+  {
+    "itemId": "0017",
+    "nutrientsFull":
+              {
+                "calories": "889.1",
+                "fat": "0.4",
+                "carbohydrates": "217.8",
+                "protein": "2.6"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "222.3",
+                "fat": "0.1",
+                "carbohydrates": "54.5",
+                "protein": "0.65"
+              }
+  },
+  {
+    "itemId": "0018",
+    "nutrientsFull":
+              {
+                "calories": "219.7",
+                "fat": "7.6",
+                "carbohydrates": "20.3",
+                "protein": "2.6"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "219.7",
+                "fat": "7.6",
+                "carbohydrates": "20.3",
+                "protein": "2.6"
+              }
+  },
+  {
+    "itemId": "0019",
+    "nutrientsFull":
+              {
+                "calories": "235.9",
+                "fat": "7.6",
+                "carbohydrates": "15.5",
+                "protein": "2.6"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "235.9",
+                "fat": "7.6",
+                "carbohydrates": "15.5",
+                "protein": "2.6"
+              }
+  },
+  {
+    "itemId": "0020",
+    "nutrientsFull":
+              {
+                "calories": "185.1",
+                "fat": "7.6",
+                "carbohydrates": "20.3",
+                "protein": "2.6"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "185.1",
+                "fat": "7.6",
+                "carbohydrates": "20.3",
+                "protein": "2.6"
+              }
+  },
+  {
+    "itemId": "0021",
+    "nutrientsFull":
+              {
+                "calories": "128.8",
+                "fat": "0",
+                "carbohydrates": "3.8",
+                "protein": "0.3"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "128.8",
+                "fat": "0",
+                "carbohydrates": "3.8",
+                "protein": "0.3"
+              }
+  },
+  {
+    "itemId": "0022",
+    "nutrientsFull":
+              {
+                "calories": "240",
+                "fat": "0",
+                "carbohydrates": "38",
+                "protein": "2"
+              },
+    "nutrientsSingle":
+              {
+                "calories": "120",
+                "fat": "0",
+                "carbohydrates": "19",
+                "protein": "1"
+              }
+  }
+]
