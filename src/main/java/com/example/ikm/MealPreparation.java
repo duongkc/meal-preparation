@@ -90,7 +90,12 @@ public class MealPreparation {
 			if ("a".equals(ans)) {
 				AddRecipe addRecipe = new AddRecipe();
 				try {
-					addRecipe.addRecipe(s);
+					Recipe[] newRecipeArray = new Recipe[recipeArray.length + 1];
+					for (int i = 0; i < recipeArray.length; i++) {
+						newRecipeArray[i] = recipeArray[i];
+					}
+					newRecipeArray[recipeArray.length] = addRecipe.addRecipe(s, recipeArray);
+					recipeArray = newRecipeArray;
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

@@ -4,11 +4,17 @@ import java.util.Scanner;
 
 public class AddRecipe {
 	
-	Recipe addRecipe(Scanner sc) throws Exception{
-		int itemId;
+	Recipe addRecipe(Scanner sc, Recipe[] recipeArray) throws WrongRecipeInputException{
 		
 		Recipe recipe = new Recipe();
 		// get highest ItemID of existing recipes and increment by 1 for recipe.setItemID(); 
+		int highestId = 0;
+		for(int i = 0; i < recipeArray.length; i++) {
+			if(recipeArray[i].getItemId() > highestId) {
+				highestId = recipeArray[i].getItemId() ;
+			}
+		}
+		recipe.setItemsId(highestId + 1);
 		
 		// Add name
 		System.out.println("What is the name of the recipe you would like to add?");
