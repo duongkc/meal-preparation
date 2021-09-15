@@ -7,7 +7,7 @@ public class Converter {
 	// bron: https://addapinch.com/cooking-conversion-charts/
 	// [gram, ml, pinch, dash, teaspoon, tablespoon, cup, pint]
 	String[] units = { "gram", "ml", "pinch", "dash", "teaspoon", "tablespoon", "cup", "pint" };
-	double[] conversionTable = { 14.3, 15, (1.0 / 48), (1.0 / 24), (1.0 / 3), 1, 16, 32 };
+	double[] conversionTable = { 14.3, 15.0, 48.0, 24.0, 3.0, 1.0, 1 / 16.0, 1 / 32.0 };
 	boolean continueConverter = true; // used to exit the converted when exit is typed
 	static Scanner in = new Scanner(System.in);
 
@@ -23,8 +23,9 @@ public class Converter {
 					"What unit do you wish to convert? \nThe available options are: [gram, ml, pinch, dash, teaspoon, tablespoon, cup, pint]");
 
 			// Bereken het resultaat en geef het weer
-			double result = 1 / (amount * conversionTable[from]) * conversionTable[to];
-			System.out.printf(amount + " " + units[from] + " equals %.2f" + " " + units[to] + "\n\n", result);
+			double factor = 1 / conversionTable[from] * conversionTable[to];
+			System.out.println("factor" + factor);
+			System.out.println(amount * factor);
 		} while (continueConverter);
 		in.close();
 		System.out.println("You've exited the converter");
