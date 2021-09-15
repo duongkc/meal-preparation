@@ -27,7 +27,8 @@
             "Bind the soup with the egg yolk"
         ],
         "image": "https://images.themodernproper.com/billowy-turkey/production/posts/2019/Garlic-Soup-15.jpg?w=1200&h=1200&q=82&fm=jpg&fit=crop&fp-x=0.5&fp-y=0.5&dm=1599767618&s=72f78f2d6397727638a4ddc8f4057f73",
-        "source": "https://www.24kitchen.nl/recepten/knoflooksoep"
+        "source": "https://www.24kitchen.nl/recepten/knoflooksoep",
+        "tags": ["garlic", "potato", "bay leaf", "chicken stock", "eggs", "cayenne pepper", "olive oil"]
     },
     {
         "itemId": "0001",
@@ -61,7 +62,8 @@
             "Kin khao hai aroy! (Enjoy your meal!)"
         ],
         "image": "https://www.leukerecepten.nl/wp-content/uploads/2017/02/tom-ka-kai-soep.jpg",
-        "source": "https://hot-thai-kitchen.com/tom-ka-gai/"
+        "source": "https://hot-thai-kitchen.com/tom-ka-gai/",
+        "tags": ["chicken stock", "milk", "chicken thigh", "lemongrass", "galangal", "kaffir lime leaves", "chilli pepper", "fish sauce", "palm sugar", "oyster mushroom", "lime"]
     },
     {
         "itemId": "0002",
@@ -467,7 +469,7 @@
         "kitchen": "Asian",
         "hint": "",
         "ingredients": [
-            "1L of wodka or brandy",
+            "1L of vodka or brandy",
             "150 g of ginger",
             "4 stalks of lemongrass",
             "500 g of sugar"
@@ -492,7 +494,7 @@
         "kitchen": "Asian",
         "hint": "",
         "ingredients": [
-            "200 ml wodka",
+            "200 ml vodka",
             "60 g ginger",
             "75 g honey"
         ],
@@ -545,7 +547,7 @@
             "120 ml lime juice",
             "355 ml water",
             "10 mint leaves",
-            "2 spoons of white rhum"
+            "2 spoons of white rum"
         ],
         "preparation": [
             "[Beforehand]",
@@ -638,7 +640,7 @@
         "kitchen": "Other",
         "hint": "",
         "ingredients": [
-            "50 ml white rhum",
+            "50 ml white rum",
             "25 ml lime juice",
             "25 ml sweet beetroot juice"
         ],

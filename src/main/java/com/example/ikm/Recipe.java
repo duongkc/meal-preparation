@@ -26,7 +26,7 @@ public class Recipe
 		// I noticed that in the ingredients there's also texts like "[main]" and "[Sauce]" etc which are parts of the recipe;
 	}
 	
-	public Recipe(int itemId, int type, int duration, int portions, boolean vegetarian, String name, String dish, String kitchen, String hint, String[] ingredients, String[] preparations)
+	public Recipe(int itemId, int type, int duration, int portions, boolean vegetarian, String name, String dish, String kitchen, String hint, String[] ingredients, String[] preparations, String[] tags)
 	{
 		this.itemId = itemId;
 		this.type = type;
@@ -39,6 +39,7 @@ public class Recipe
 		this.hint = hint;
 		this.ingredients = ingredients;
 		this.preparations = preparations;
+		this.tags = tags;
 		// Ignoring "image" & "source" since this is used by user input.
 	}
 	
@@ -173,7 +174,15 @@ public class Recipe
 	{
 		source = s;
 	}
-	
+
+	public String[] getTags() {
+		return tags;
+	}
+
+	public void setTags(String[] tags) {
+		this.tags = tags;
+	}
+
 	void adjustRecipe(Scanner sc, String[] ingredientTypes) {
 		System.out.println("You are adjusting the recipe for: " + this.getName());
 		System.out.println("Do you want to add an ingredient? Type 'y' for yes and 'n' for no.");
