@@ -1,0 +1,684 @@
+[
+    {
+        "itemId": "0000",
+        "type": "0",
+        "duration": "20",
+        "portions": "4",
+        "vegetarian": "true",
+        "name": "Garlic Soup",
+        "dish": "Soup",
+        "kitchen": "Other",
+        "hint": "Garnish with bacon, olive oil and parsley. The egg white can also be added",
+        "ingredients": [
+            "2 bulbs of garlic",
+            "1 potato",
+            "1 laurier leaf",
+            "1L of chicken stock",
+            "3 egg yolks",
+            "Pinch of cayenne pepper",
+            "Olive oil"
+        ],
+        "preparation": [
+            "Cut the garlic. Peel and cut the potato in cubes",
+            "Sauté the garlic and potato. Add the laurier leaf and pepper.",
+            "Deglaze with the stock",
+            "Cook the soup with the lit until done",
+            "Remove the leaf and blend",
+            "Bind the soup with the egg yolk"
+        ],
+        "image": "https://images.themodernproper.com/billowy-turkey/production/posts/2019/Garlic-Soup-15.jpg?w=1200&h=1200&q=82&fm=jpg&fit=crop&fp-x=0.5&fp-y=0.5&dm=1599767618&s=72f78f2d6397727638a4ddc8f4057f73",
+        "source": "https://www.24kitchen.nl/recepten/knoflooksoep"
+    },
+    {
+        "itemId": "0001",
+        "type": "0",
+        "duration": "30",
+        "portions": "2",
+        "vegetarian": "false",
+        "name": "Tom kha gai",
+        "dish": "Soup",
+        "kitchen": "Thai",
+        "hint": "The herbs are meant for infusion only and not meant to be eaten. Please inform your guests or remove them before serving",
+        "ingredients": [
+            "475 ml of unsalted chicken stock",
+            "1 teaspoon of salt",
+            "355 ml of coconut milk",
+            "454 g of chicken thigh",
+            "1 stalk of lemongrass",
+            "10-15 rounds of galangal",
+            "4-5 kaffir lime leaves",
+            "3-4 chillies",
+            "1.5-2 teaspoons of fish sauce",
+            "1 teaspoon of palm sugar",
+            "150 g of oyster mushrooms",
+            "2-2.5 spoons of lime juice"
+        ],
+        "preparation": [
+            "Bring chicken stock to a boil, then add salt and bite sized chicken. Let simmer gently for 20 minutes or until chicken is fork tender",
+            "Add coconut milk, lemongrass(2 cm pieces of bottom half, bruised), galangal, kaffir lime leaves(roughly torn), chilies(bruised), half the fish sauce, and palm sugar. Simmer for 3-5 minutes to infuse.",
+            "Add mushrooms, bring back to a simmer and cook for 1-2 minutes or until cooked through.",
+            "Taste and add more fish sauce as needed. Turn off the heat and add lime juice.",
+            "Kin khao hai aroy! (Enjoy your meal!)"
+        ],
+        "image": "https://www.leukerecepten.nl/wp-content/uploads/2017/02/tom-ka-kai-soep.jpg",
+        "source": "https://hot-thai-kitchen.com/tom-ka-gai/"
+    },
+    {
+        "itemId": "0002",
+        "type": "0",
+        "duration": "35",
+        "portions": "4",
+        "vegetarian": "false",
+        "name": "Spicy tomato stew",
+        "dish": "Main",
+        "kitchen": "Other",
+        "hint": "Add cornstarch if it is too liquid",
+        "ingredients": [
+            "150 g of pork belly",
+            "500 g of carrots",
+            "500 g of new potatoes with skin",
+            "1 green bell pepper",
+            "2 cans of tomato cubes",
+            "1 teaspoon of paprika powder",
+            "1 teaspoon of dried oregano",
+            "1-2 spoons of sriracha sauce",
+            "1 L of water",
+            "Pinch of white pepper"
+        ],
+        "preparation": [
+            "Heat up a dutch oven and bake the bacon crispy",
+            "Deglaze the bacon with water",
+            "Add the potatoes and carrots in pieces and cook for 10 minutes",
+            "Add the tomato cubes and stir well",
+            "Bring to flavor with paprika powder, white pepper, sriracha sauce and oregano",
+            "Add the diced bell pepper and heat it for a few minutes"
+        ],
+        "image": "https://www.eatyourselfskinny.com/wp-content/uploads/2018/01/beef-stew-111.jpg",
+        "source": "https://www.ah.nl/kookschrift/recept?id=610026"
+    },
+    {
+        "itemId": "0003",
+        "type": "1",
+        "duration": "-1",
+        "portions": "-1",
+        "vegetarian": "true",
+        "name": "El diablo",
+        "dish": "Cocktail",
+        "kitchen": "Mexican",
+        "hint": "Garnish: lime wedge and fresh blackberry or candied ginger (optional)",
+        "ingredients": [
+            "45 ml of Tequila",
+            "15 ml of crème de cassis",
+            "15 ml of fresh lime juice",
+            "60-90 ml of ginger beer",
+            "[Tools]",
+            "Shaker",
+            "Strainer",
+            "Highball glass"
+        ],
+        "preparation": [
+            "Combine all ingredients, except ginger beer, and shake",
+            "Fine-strain into an ice-filled glass",
+            "Top with ginger beer and garnish"
+        ],
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/el-diablo-recept-1585833147.jpg",
+        "source": ""
+    },
+    {
+        "itemId": "0004",
+        "type": "0",
+        "duration": "10",
+        "portions": "4",
+        "vegetarian": "true",
+        "name": "Cauliflower with salsa verde",
+        "dish": "Side",
+        "kitchen": "Italian",
+        "hint": "delicious with a pork chop and baby potatoes",
+        "ingredients": [
+            "800 g of cauliflower",
+            "15 g of fresh basil",
+            "5 spoons of extra virgin olive oil",
+            "1.5 spoon of red wine vinegar",
+            "2 teaspoons of dijon mustard ",
+            "15 g of fresh parsley",
+            "2 sweet and sour pickles",
+            "50 g of capers",
+            "1 clove of garlic"
+        ],
+        "preparation": [
+            "Divide the cauliflower into florets and cook for 5 minutes until al dente",
+            "Meanwhile, put the garlic with the capers, pickles, parsley, mustard, vinegar, oil and basil in a blender. Blend to a smooth sauce. Season with pepper and salt",
+            "Put the cauliflower in a bowl and pour the salsa verde over it"
+        ],
+        "image": "https://moorlandseater.com/wp-content/uploads/2020/05/salsa-verde-with-roasted-cauliflower-moorlands-DSC05675sq.jpg",
+        "source": "https://www.ah.nl/allerhande/recept/R-R983894/bloemkool-met-salsa-verde"
+    },
+    {
+        "itemId": "0005",
+        "type": "0",
+        "duration": "35",
+        "portions": "4",
+        "vegetarian": "false",
+        "name": "Creamy carrot and parm pasta",
+        "dish": "Main",
+        "kitchen": "Italian",
+        "hint": "if sauce is too thick thin using reserved pasta water. If not thick enough add additional sauce",
+        "ingredients": [
+            "6 medium carrots ",
+            "1 red bell pepper",
+            "1 clove of garlic",
+            "2 spoons of olive oil",
+            "salt",
+            "pepper",
+            "350-470 ml of chicken stock",
+            "450 gr of pasta",
+            "[garnish]",
+            "Parmesan cheese",
+            "Fresh thyme",
+            "Crispy bacon"
+        ],
+        "preparation": [
+            "Preheat oven to 400 degrees",
+            "Onto a rimmed baking sheet place: carrots, bell pepper, garlic. Drizzle oil on top. Season with salt and pepper. Toss to coat. Bake for approximately 25-30 minutes",
+            "When bell pepper is cool enough to handle, remove skin and seeds (discard)",
+            "Place a large pot of generously salted water onto boil. When boiling, add pasta and cook until al dente. Reserve 1/2 cup pasta water before draining",
+            "Into blender add: roasted carrots, bell pepper and garlic. Start by adding 1 cup broth and pulse until pureed",
+            "Continue adding broth until you have a creamy consistency. Season with salt and pepper to taste",
+            "Into a large serving bowl add cooked pasta and 1 cup carrot sauce. Toss to coat. TIP: if sauce is too thick thin using reserved pasta water. If not thick enough add additional sauce",
+            "Garnish with Parmigiano shavings, fresh thyme and crispy bacon if desired"
+        ],
+        "image": "https://bellalimento.com/wp-content/uploads/2014/03/MG_2563-683x1024.jpg",
+        "source": "https://bellalimento.com/2014/03/03/creamy-carrot-and-parm-pasta/"
+    },
+    {
+        "itemId": "0006",
+        "type": "1",
+        "duration": "-1",
+        "portions": "-1",
+        "vegetarian": "true",
+        "name": "Creamy nutella vodka",
+        "dish": "Cocktail",
+        "kitchen": "Other",
+        "hint": "This recipe results in ~1L of creamy nutella vodka",
+        "ingredients": [
+            "178 ml of nutella",
+            "100 gr of sugar",
+            "300 ml of cream",
+            "474 ml of vodka",
+            "Whipped cream",
+            "[Garnish]",
+            "Strawberry"
+        ],
+        "preparation": [
+            "In a pot, combine nutella and sugar and turn on low heat. Slowly add heavy whipping cream and vodka, stirring frequently",
+            "After cooling, pour mix into a bottle and serve in shot glass",
+            "Top with whipped cream and garnish with a strawberry",
+            "[Drink responsibly!]"
+        ],
+        "image": "https://i.pinimg.com/originals/56/2b/d6/562bd6d3ffd4599929c4f3d28c140e33.jpg",
+        "source": "https://tipsybartender.com/recipe/creamy-nutella-vodka/"
+    },
+    {
+        "itemId": "0007",
+        "type": "0",
+        "duration": "-1",
+        "portions": "-1",
+        "vegetarian": "false",
+        "name": "Stew with blade steak and mushrooms",
+        "dish": "Main",
+        "kitchen": "Other",
+        "hint": "Add cornstarch if it is too liquid",
+        "ingredients": [
+            "500 g of blade steak(Pot roast)",
+            "100 g of chestnut mushrooms",
+            "100 ml of red wine",
+            "2 L of beef stock",
+            "2 cloves of garlic",
+            "2 shallots",
+            "1 teaspoon of dried thyme",
+            "200 g of peas",
+            "Lump of butter"
+        ],
+        "preparation": [
+            "Melt the butter in a dutch oven an bake the blade steak all around",
+            "Finely chop the onion and garlic and add it. Deglaze with bouillon",
+            "Pour in the red wine and bring to taste with thyme",
+            "Bring it slowly to a boil and let it simmer for 2.5 h",
+            "Add the peas and mushrooms and cook for a few minutes"
+        ],
+        "image": "https://i1.wp.com/heerlijkehappen.nl/wp-content/uploads/2020/08/img_6727-scaled.jpg?resize=676%2C320&ssl=1",
+        "source": ""
+    },
+    {
+        "itemId": "0008",
+        "type": "0",
+        "duration": "45",
+        "portions": "4",
+        "vegetarian": "true",
+        "name": "Shakshuka",
+        "dish": "Main",
+        "kitchen": "Arabic",
+        "hint": "Add a can of tomatoes and bring to taste accordingly",
+        "ingredients": [
+            "2 onions",
+            "2 red bell peppers",
+            "2 yellow bell peppers",
+            "6 twigs of fresh thyme",
+            "15 g of fresh coriander",
+            "2 twigs of fresh parsley",
+            "6 tomatoes",
+            "0.5 teaspoon of cumin",
+            "4 teaspoons of cane sugar",
+            "2 dried bay leaves",
+            "0.5 teaspoon of saffron",
+            "Pinch of cayenne pepper",
+            "250 ml of water",
+            "8 medium eggs",
+            "Olive oil",
+            "Optional: Sriracha sauce"
+        ],
+        "preparation": [
+            "Cut the onions into slices and the bell peppers into strips. Cut the thyme and parsley. Also cut half of the coriander. Cut the tomatoes coarsely",
+            "Roast the cumin seeds for around 2 minutes on high heat",
+            ". Add the oil and onions and bake them for 5 minutes",
+            "Add the bell peppers, sugar, parsley, coriander, thyme, bay leaves and bake for 5-10 minutes on high heat, until the vegetables have a nice color",
+            "Add the tomatoes, saffron, cayenne pepper and a bit of salt and pepper. Turn down the heat and let it simmer for 15 minutes. Keep adding water so it keeps the consistency of pasta sauce",
+            "Remove the bay leaves and divide over 2 frying pans. Make 4 cavities into each pan and put an egg in each. Add salt on the eggs and put a lit on the pan for 10- 12 minutes, until the eggs are just cooked",
+            ". Sprinkle with the remaining coriander and serve",
+            " Enjoy your meal!"
+        ],
+        "image": "https://chickslovefood.com/wp-content/uploads/2015/10/shakshuka-eindfoto-1-CLF-scaled.jpg",
+        "source": "https://www.ah.nl/allerhande/recept/R-R931346/yotam-ottolenghi-s-shakshuka"
+    },
+    {
+        "itemId": "0009",
+        "type": "0",
+        "duration": "5",
+        "portions": "4",
+        "vegetarian": "true",
+        "name": "Sweet and sour cucumber",
+        "dish": "Side",
+        "kitchen": "Other",
+        "hint": "The star anise only adds to the recipe if it stays in for a while",
+        "ingredients": [
+            "1 onion",
+            "1 cucumber",
+            "250 ml water",
+            "250 ml vinegar",
+            "6 spoons of sugar",
+            "2 pieces of star anise"
+        ],
+        "preparation": [
+            "Cut the onion and cucumber in thin slices",
+            "Mix everything together in a bowl"
+        ],
+        "image": "https://1.bp.blogspot.com/-nyblT7ME030/U3IwxUSZ0xI/AAAAAAAAbzA/e_sNPp620x4/s640/Cucumber+and+Onion+Vinegar+Salad+MS.jpg",
+        "source": "https://www.youtube.com/watch?v=L0FHOLPJYs8&t=72s"
+    },
+    {
+        "itemId": "0010",
+        "type": "0",
+        "duration": "40",
+        "portions": "4",
+        "vegetarian": "false",
+        "name": "Ciabatta with chicken and tomatoes out of the oven",
+        "dish": "Main",
+        "kitchen": "Other",
+        "hint": "",
+        "ingredients": [
+            "4 chicken ",
+            "2 ciabatta's",
+            "750 g of tomatoes",
+            "2 onions",
+            "125 g rucola",
+            "2 spoons of italian herbs",
+            "6 spoons of olive oil",
+            "Pepper",
+            "Salt"
+        ],
+        "preparation": [
+            "Heat the oven to 200 degrees",
+            "Cut the chicken in parts",
+            "Cut the onions and tomatoes in parts",
+            "Divide over the baking plate and sprinkle with the herbs and oil",
+            "Put the baking plate in the oven for 15 minutes",
+            "Mix the content and add the sliced ciabatta",
+            "Put it back in the oven for another 15 minutes",
+            "Serve with the rucola added on top and add salt and pepper to taste"
+        ],
+        "image": "https://www.fit.nl/wp-content/uploads/2017/02/Chiabatta-recept.jpg",
+        "source": "https://www.fit.nl/recept/ciabatta-kip"
+    },
+    {
+        "itemId": "0011",
+        "type": "0",
+        "duration": "60",
+        "portions": "6",
+        "vegetarian": "true",
+        "name": "Bulgur salad with peas and mint",
+        "dish": "Salad",
+        "kitchen": "Other",
+        "hint": "For a gluten free version the bulgur can be swapped with cooked quinoa. The pomegranate can be swapped with roasted sunflower seeds and cut dried apricots and raisins",
+        "ingredients": [
+            "150 g of peas",
+            "0.5 teaspoon of salt",
+            "300 g of bulgur",
+            "15 g of fresh mint",
+            "20 g of fresh parsley",
+            "1.5 spoon of olive oil",
+            "25 ml of apple cider vinegar",
+            "120 g of fresh pomegranate seeds"
+        ],
+        "preparation": [
+            "Put the peas with the salt in a pan of boiling water, let it boil for a few minutes and drain the water",
+            "Put the bulgur in a bowl and add a layer of lauw water and let it rest for 30-60 minutes until the bulgur gets soft. Drain the water afterwards",
+            "In the meantime, cut the leaves of mint and parsley finely",
+            "Place the peas in a bowl of ice water to schik them, to let them remain a nice green color",
+            "With a fork and mix in the salt and pepper. In this phase the bulgur and peas are edible for a day if they are placed in a fridge",
+            "Add the herbs, peas, oil and vinegar to the bulgur. Taste test it and add pomegranate seeds afterwards"
+        ],
+        "image": "https://baketheneat.com/wp-content/uploads/2019/02/Pea-and-Mint-Bulgur-Wheat-Salad-2-500x375.jpg",
+        "source": ""
+    },
+    {
+        "itemId": "0012",
+        "type": "0",
+        "duration": "75",
+        "portions": "8",
+        "vegetarian": "true",
+        "name": "Spinach and pesto white lasagna",
+        "dish": "Main",
+        "kitchen": "Italian",
+        "hint": "",
+        "ingredients": [
+            "1 spoon of extra-virgin olive oil",
+            "8 oz of sliced baby bella mushrooms",
+            "3 spoons of unsalted butter",
+            "3 spoons of flour",
+            "2 cups of milk",
+            "1.5 cups chicken broth",
+            "kosher salt",
+            "freshly ground black pepper",
+            "4 oz of grated parmesan cheese",
+            "1.16 oz of spinach",
+            "6 oz of pesto",
+            "2 cups of skim ricotta cheese",
+            "1 box of lasagna sheets"
+        ],
+        "preparation": [
+            "Preheat a oven to 350 Fahrenheit. Grease a baking pan",
+            "Heat oil in a large skillet over medium heat. Add mushrooms; cook 4 to 5 minutes, stirring occasionally, until golden. Transfer to a plate",
+            "Add butter to a pan. Once melted, whisk flour for 30 seconds. Gradually stream in milk, whisking continuously until combined. Whisk in broth and bring mixture to a boil; reduce to a simmer and cook 2 to 3 minutes, whisking occasionally, until mixture is thickened. Stir in salt, pepper and half of the parmesan. Cook 1 additional minute, until cheese melts. Set cheese sauce asside",
+            "In a large bowl, combine spinach, pesto and ricotta; stir well",
+            "Spread half of the cheese sauce on the bottom of a prepared baking dish. Top with 3 lasagna sheets. Spread one third of the ricotta mixture and half of the mushrooms over lasagna sheets. Spoon one fourth of the remaining cheese sauce on overtop. Place another 3 lasagna sheets on top and repeat with layers of ricoota mushrooms and cheese sauce. Repeat once more with the exception of the mushrooms, ending with 3 lasagna sheets. Spoon remaining cheese sauce on top. Sprinkle remaining parmesan on top. Bake uncovered for 45 minutes, until golden and bubbly"
+        ],
+        "image": "https://www.halfbakedharvest.com/wp-content/uploads/2018/12/White-Pesto-Spinach-Lasagna-1-700x1050.jpg",
+        "source": ""
+    },
+    {
+        "itemId": "0013",
+        "type": "0",
+        "duration": "30",
+        "portions": "4",
+        "vegetarian": "false",
+        "name": "Budae Jjigae (Army Stew)",
+        "dish": "Main",
+        "kitchen": "Korean",
+        "hint": "Noodles soak up a lot of liquid so it’s best to consume them first. Also, you can replenish with spare stock (if you have any) as it boils down. It should be still delicious. (& this is how Koreans eat this dish at a restaurant.)",
+        "ingredients": [
+            "[Main]",
+            "1 L of chicken stock",
+            "200 g of thinly sliced SPAM",
+            "150 g of thinly sliced franfurter sausages",
+            "250 g of sliced tofu",
+            "200 g of thinly sliced enoki mushrooms",
+            "200 g of thinly sliced king oyster mushrooms",
+            "100 g of thinly sliced shiitake mushrooms",
+            "80 g of kimchi",
+            "110 g of instant ramen noodles",
+            "50 g of korean rice cakes for soup",
+            "30 g of green onion",
+            "1-2 slices of cheese",
+            "[Sauce]",
+            "2 spoons of korean chili flakes (Gochugaru)",
+            "2 spoons of rice wine (mirin)",
+            "1 spoon of soy sauce",
+            "1 spoon of minced garlic",
+            "0.5 spoon of sugar",
+            "0.5 spoon of korean chilli paste (Gochujang)",
+            "S few sprinkles of ground black pepper"
+        ],
+        "preparation": [
+            "Assemble the main ingredients (except for instant ramen noodles, rice cakes, green onion and cheese) in a shallow pot. Add the sauce in the middle. Pour the stock in the corner of the pot. Close the lid and boil it on medium high heat until the stock starts to boil (about 8 mins).",
+            "Add the remaining ingredients – instant ramen noodles, rice cakes, green onion and cheese on top of the pot and boil uncovered until the noodles are cooked (about 2 to 3 mins). Reduce the heat to low (if you’re cooking on a portable burner and sharing the food at the dinning table).",
+            "Start dishing out soup, protein and vegetables onto your own soup bowl. Serve with steamed rice (& with other Korean side dishes)."
+        ],
+        "image": "https://mykoreankitchen.com/wp-content/uploads/2016/02/1.-Korean-Army-Stew-Budae-Jjigae.webp",
+        "source": "https://mykoreankitchen.com/army-stew-budae-jjigae/"
+    },
+    {
+        "itemId": "0014",
+        "type": "1",
+        "duration": "-1",
+        "portions": "-1",
+        "vegetarian": "true",
+        "name": "Lemongrass & ginger liqueur",
+        "dish": "Cocktail",
+        "kitchen": "Asian",
+        "hint": "",
+        "ingredients": [
+            "1L of wodka or brandy",
+            "150 g of ginger",
+            "4 stalks of lemongrass",
+            "500 g of sugar"
+        ],
+        "preparation": [
+            "Put all the ingredients in a preserving jar",
+            "Stir the jar a few times during the first few days to dissolve the sugar",
+            "Store the jar in a dark cool place for 4 weeks",
+            "Filter the liqueur with a coffee filter and put it in a bottle"
+        ],
+        "image": "https://c2.staticflickr.com/4/3107/2735383630_967c757a17_z.jpg?zz=1",
+        "source": "https://www.aziatische-ingredienten.nl/citroengras-gember-likeur/"
+    },
+    {
+        "itemId": "0015",
+        "type": "1",
+        "duration": "-1",
+        "portions": "-1",
+        "vegetarian": "true",
+        "name": "honey ginger liqueur",
+        "dish": "Cocktail",
+        "kitchen": "Asian",
+        "hint": "",
+        "ingredients": [
+            "200 ml wodka",
+            "60 g ginger",
+            "75 g honey"
+        ],
+        "preparation": [
+            "Put all the ingredients in a preserving jar",
+            "Stir the jar a few times during the first few days to dissolve the sugar",
+            "Store the jar in a dark cool place for 4 weeks",
+            "Filter the liqueur with a small sieve"
+        ],
+        "image": "https://c2.staticflickr.com/4/3107/2735383630_967c757a17_z.jpg?zz=1",
+        "source": ""
+    },
+    {
+        "itemId": "0016",
+        "type": "1",
+        "duration": "-1",
+        "portions": "-1",
+        "vegetarian": "true",
+        "name": "Lady dream",
+        "dish": "Cocktail",
+        "kitchen": "Other",
+        "hint": "The edge of the glas can also be garnished with sugar after smearing a slice of orange on it. ",
+        "ingredients": [
+            "40 ml De Kuyper Advocaat",
+            "40 ml De Kuyper Butterscotch Caramel",
+            "40 ml milk"
+        ],
+        "preparation": [
+            "Combine all ingredients in a shaker with ice. Shake and strain it in a martini glass. It can also be  poured in another glass with ice. "
+        ],
+        "image": "https://i.ytimg.com/vi/DFVgfprfrfg/maxresdefault.jpg",
+        "source": "https://www.youtube.com/watch?v=DFVgfprfrfg"
+    },
+    {
+        "itemId": "0017",
+        "type": "1",
+        "duration": "-1",
+        "portions": "-1",
+        "vegetarian": "true",
+        "name": "Color changing frozen mojito",
+        "dish": "Cocktail",
+        "kitchen": "Other",
+        "hint": "",
+        "ingredients": [
+            "[Blue ice]",
+            "710 ml water",
+            "85 g red cabbage, julliened",
+            "200 g sugar",
+            "[Lime ice]",
+            "120 ml lime juice",
+            "355 ml water",
+            "10 mint leaves",
+            "2 spoons of white rhum"
+        ],
+        "preparation": [
+            "[Beforehand]",
+            "Add water and red cabbage to a medium-size pot. Bring the water to a boil,  then strain the cabbage in a sieve over a bowl to reserve the blue liquid.",
+            "Pour the strained blue water into an ice tray. You will be left with 1 cup (235 ml) of blue water. Reserve the water and freeze the ice tray for 6 hours, or  overnight.",
+            "Add the reserved blue water to a pot with the sugar and bring to a boil until the  sugar has dissolved. Set aside.",
+            "Combine the lime juice with 1½ (355 ml) cups of water and stir to combine.  Pour the lime mixture into an ice tray and freeze for 6 hours, up to overnight.",
+            "[Building the cocktail]",
+            "Add the blue ice cubes to a blender and blend until finely crushed. Put the  crushed blue ice in a glass.",
+            "Wash the blender well.",
+            "Add the lime ice cubes and 8 mint leaves. Blend until finely crushed. Put the  crushed lime and mint ice on top of the blue ice.",
+            "Slowly pour the white rum and blue simple syrup. Top with a sprig of mint.",
+            "[Enjoy!]"
+        ],
+        "image": "https://i.pinimg.com/originals/a9/24/9b/a9249b88cb5ad7cf7dc37dcc357933b1.jpg",
+        "source": "https://tasty.co/recipe/color-changing-mojito"
+    },
+    {
+        "itemId": "0018",
+        "type": "1",
+        "duration": "-1",
+        "portions": "-1",
+        "vegetarian": "true",
+        "name": "Mexican coffee",
+        "dish": "Cocktail",
+        "kitchen": "Other",
+        "hint": "",
+        "ingredients": [
+            "15 ml tequila",
+            "15 ml kahlua",
+            "1 cup strong brewed coffee",
+            "1 scoop vanilla ice cream or whipped cream"
+        ],
+        "preparation": [
+            "Pour all ingredients in a cup and add a scoop of vanilla ice cream or whipped cream on top. "
+        ],
+        "image": "https://creative-culinary.com/wp-content/uploads/mexican-coffee-3.jpg",
+        "source": ""
+    },
+    {
+        "itemId": "0019",
+        "type": "1",
+        "duration": "-1",
+        "portions": "-1",
+        "vegetarian": "true",
+        "name": "Irish coffee",
+        "dish": "Cocktail",
+        "kitchen": "Other",
+        "hint": "",
+        "ingredients": [
+            "Whisky to taste",
+            "1 cup strong brewed coffee",
+            "1 scoop vanilla ice cream or whipped cream"
+        ],
+        "preparation": [
+            "Pour all ingredients in a cup and add a scoop of vanilla ice cream or whipped cream on top. "
+        ],
+        "image": "https://www.cocktailicious.nl/wp-content/uploads/2020/12/Dutch-coffee.jpg",
+        "source": ""
+    },
+    {
+        "itemId": "0020",
+        "type": "1",
+        "duration": "-1",
+        "portions": "-1",
+        "vegetarian": "true",
+        "name": "Italian coffee",
+        "dish": "Cocktail",
+        "kitchen": "Other",
+        "hint": "",
+        "ingredients": [
+            "15 ml amaretto",
+            "1 cup strong brewed coffee",
+            "1 scoop vanilla ice cream or whipped cream"
+        ],
+        "preparation": [
+            "Pour all ingredients in a cup and add a scoop of vanilla ice cream or whipped cream on top. "
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0453/1381/8776/files/italiancoffee_480x480.jpg?v=1608199794",
+        "source": ""
+    },
+    {
+        "itemId": "0021",
+        "type": "1",
+        "duration": "-1",
+        "portions": "-1",
+        "vegetarian": "true",
+        "name": "Beetroot daiquiri",
+        "dish": "Cocktail",
+        "kitchen": "Other",
+        "hint": "",
+        "ingredients": [
+            "50 ml white rhum",
+            "25 ml lime juice",
+            "25 ml sweet beetroot juice"
+        ],
+        "preparation": [
+            "[Beforehand]",
+            "Take 400ml of beetroot juice and put juice in a pan.",
+            "Add 400g of white caster sugar, heat gently & stir until the sugar is completely dissolved. Once the sugar is dissolved remove from the heat, allow to cool and bottle.",
+            "[Building the cocktail]",
+            "Add all ingredients to a cocktail shaker, fill with cubed ice and shake vigorously for 10-12 seconds.",
+            "Strain into a rocks glass over ice.",
+            "Garnish with a slice of beet root or a slice of lime."
+        ],
+        "image": "https://uk.thebar.com/assets/en-gb/Images/AW/beetroot-daiquiri$$069A0000002OQxKIAW.jpg?maxheight=360&maxwidth=540&quality=85",
+        "source": "https://uk.thebar.com/recipe/captain-morgan-beetroot-daiquiri"
+    },
+    {
+        "itemId": "0022",
+        "type": "1",
+        "duration": "15",
+        "portions": "2",
+        "vegetarian": "true",
+        "name": "Ginger shandy beer cocktail",
+        "dish": "Cocktail",
+        "kitchen": "Other",
+        "hint": "",
+        "ingredients": [
+            "1 lime",
+            "2 spoons ginger syrup",
+            "4 ice cubes",
+            "100 ml ginger ale",
+            "250 ml beer"            
+        ],
+        "preparation": [
+            "Cut half of the lime in wedges and squeeze the other half",
+            "Divide the ginger syrup and lime juice between the glasses. Mix with a spoon or pestle.",
+            "Put the ice cubes in a clean tea towel and beat small, for example with a hammer. Divide the ice between the glasses.",
+            "Divide the ginger ale and beer between the glasses and stir.",
+            "Place 2 lime wedges in each glass and serve with a straw and a pestle."
+        ],
+        "image": "https://static.ah.nl/static/recepten/img_077571_1600x_JPG.jpg",
+        "source": "https://www.ah.nl/allerhande/recept/R-R1186809/ginger-shandy-biercocktail"
+    }
+]
