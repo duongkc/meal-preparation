@@ -10,10 +10,14 @@ import java.util.Scanner;
  */
 public class MealPreparation
 {
+	private static Recipe[] recipeArray;
     static Scanner s = new Scanner(System.in);
+    
 
     public static void main(String[] args) 
     {
+    	recipeArray = new FileReader().getRecipes();
+    	
         System.out.println("Welcome to the Meal Prepper!");
         System.out.println("What would you like to do?");
         System.out.println("Press 'a' if you want a meal suggestion based on what's in your fridge" +
