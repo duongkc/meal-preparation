@@ -34,6 +34,7 @@ public class MealPreparation {
 				active = false;
 			} else {
 				System.out.println("Please type 'a', 'b', 'c', 'd' or 'e'");
+
 			}
 		}
 
@@ -84,14 +85,44 @@ public class MealPreparation {
 		} else if ("c".equals(pick)) {
 			System.out.println("Here's a list of all available recipes: ");
 		} else if ("d".equals(pick)) {
-			System.out.println("Please enter the name of the recipe you would like to adjust.");
-			String recipeName = s.nextLine();
-			for (int i = 0; i < recipeArray.length; i++) {
-				if (recipeArray[i].getName().equals(recipeName)) {
-					String[] ingredientTypes = { "dairy", "vegetables", "meat" };
-					recipeArray[i].adjustRecipe(s, ingredientTypes);
+
+			System.out.println("Type 'a' to add a new recipe and 'b' to adjust an existing recipe");
+			String ans = s.nextLine();
+			
+			if ("a".equals(ans)) {
+				AddRecipe addRecipe = new AddRecipe();
+				try {
+					Recipe[] newRecipeArray = new Recipe[recipeArray.length + 1];
+					for (int i = 0; i < recipeArray.length; i++) {
+						newRecipeArray[i] = recipeArray[i];
+					}
+					newRecipeArray[recipeArray.length] = addRecipe.addRecipe(s, recipeArray);
+					recipeArray = newRecipeArray;
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				
+			} else if ("b".equals(ans)) {
+				System.out.println("Please enter the name of the recipe you would like to adjust.");
+				String recipeName = s.nextLine();
+				int count = 0;
+				while (count == 0) {
+					for (int i = 0; i < recipeArray.length; i++) {
+						if (recipeArray[i].getName().equals(recipeName)) {
+							String[] ingredientTypes = { "dairy", "vegetables", "meat" };
+							recipeArray[i].adjustRecipe(s, ingredientTypes);
+							count++;
+						}
+					}
+					if (count == 0) {
+						System.out.println("Please enter a valid recipe name.");
+						recipeName = s.nextLine();
+					}
+
 				}
 			}
+
+		}
 
 		} else if ("e".equals(pick)) {
 			new Converter().convert();
