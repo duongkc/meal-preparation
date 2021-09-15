@@ -204,7 +204,7 @@ public class Recipe
 		String inputIngredientName = sc.nextLine();
 
 		Ingredient inputIngredient = new Ingredient();
-		inputIngredient.name = inputIngredientName;
+		inputIngredient.setName(inputIngredientName);
 
 		// Checken of dit ingredient een type heeft en dan toevoegen --> dan ook checken
 		// of nog vega.
@@ -217,19 +217,22 @@ public class Recipe
 		
 		int idx = Integer.parseInt(sc.nextLine()) - 1;
 		if (idx >= 0 & idx < ingredientTypes.length) {
-			inputIngredient.type = ingredientTypes[idx];
-			if(inputIngredient.type.equals("meat")) {
+			inputIngredient.setType(ingredientTypes[idx]);
+			if(inputIngredient.getType().equals("meat")) {
 				this.setVegetarian(false);
 			}
 		}
 		
-		//Ingredient[] newIngredients = new Ingredient[recipe.getIngredients().length + 1];
-		String[] newIngredients = new String[this.getIngredients().length + 1];
+		Ingredient[] newIngredients = new Ingredient[this.getIngredients().length + 1];
+		String[] newIngredientsNames = new String[this.getIngredients().length + 1];
 		for (int i = 0; i < this.getIngredients().length; i++) {
 			newIngredients[i] = this.getIngredients()[i];
+			newIngredientsNames[i] = this.getIngredients()[i].getName();
 		}
-		newIngredients[this.getIngredients().length] = inputIngredient.name;
-		this.setIngredients(newIngredients);
+		newIngredients[this.getIngredients().length] = inputIngredient;
+		// Nu nog even zo omdat we niet Ingredient array kunnen setten in recipe
+		newIngredientsNames[this.getIngredients().length] = inputIngredient.getName();
+		this.setIngredients(newIngredientsNames);
 	}
 
 	void changePreparation(Scanner sc) {
@@ -240,7 +243,7 @@ public class Recipe
 			if(nextLine.equals("done")) {
 				break;
 			}
-			addStringtoArray(newPreparations, nextLine);
+			newPreparations = addStringtoArray(newPreparations, nextLine);
 		}
 		System.out.println("New preparation: " + newPreparations);
 		this.setPreperation(newPreparations);
