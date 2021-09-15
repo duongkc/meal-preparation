@@ -8,4 +8,14 @@ package com.example.ikm;
  */
 public class NutrionalValue {
     String calories;
+    String fat;
+    String carbohydrates;
+    String protein;
+
+    public NutrionalValue(String calories, String fat, String carbohydrates, String protein) {
+        this.calories = calories;
+        this.fat = fat;
+        this.carbohydrates = carbohydrates;
+        this.protein = protein;
+    }
 }
