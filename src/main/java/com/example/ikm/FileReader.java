@@ -1,63 +1,66 @@
 package com.example.ikm;
 
+import com.google.gson.Gson;
+
 import java.io.IOException;
+import java.io.Reader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Map;
 import java.util.stream.Stream;
-import com.google.gson.Gson;
 
+/**
+ * Class to
+ *
+ * @author Kim Chau Duong
+ * @version 1.0
+ */
 public class FileReader {
-	private String filePath;
-	private String fileText;
-	private Recipe[] recipeArray;
+    String filePath;
+    String fileText;
 
 
-	public FileReader() {
-		filePath = "recipe.json";
-		fileText = getJsonAsString(filePath);
+    public static String getJsonAsString(String filePath)
+    {
+        StringBuilder contentBuilder = new StringBuilder();
+        try
+        {
+            Stream<String> stream = Files.lines(Paths.get(filePath), StandardCharsets.UTF_8);
+            stream.forEach(s -> contentBuilder.append(s).append("\n"));
+            stream.close();
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
 
-		readJson();
-	}
+        return contentBuilder.toString();
+    }
 
-	public static String getJsonAsString(String filePath) 
-	{
-		StringBuilder contentBuilder = new StringBuilder();
-		try 
-		{
-			Stream<String> stream = Files.lines(Paths.get(filePath), StandardCharsets.UTF_8);
-			stream.forEach(s -> contentBuilder.append(s).append("\n"));
-			stream.close();
-		} 
-		catch (IOException e) 
-		{
-			e.printStackTrace();
-		}
+    public void readJson()
+    {
+        try {
+            // create Gson instance
+            Gson gson = new Gson();
 
-		return contentBuilder.toString();
-	}
+            // create a reader
+            Reader reader = Files.newBufferedReader(Paths.get(filePath));
 
-	public void readJson() 
-	{
-		Gson gson = new Gson();
-		recipeArray = gson.fromJson(fileText, Recipe[].class);
-	}
+            // convert JSON file to map
+            Map<?, ?> map = gson.fromJson(reader, Map.class);
 
-	public Recipe[] getRecipes() 
-	{
-		return recipeArray;
-	}
-	
-	/* Just a test method, can be ignored. */
-	public void testing() 
-	{
-		Recipe r = recipeArray[1];
+            // print map entries
+            for (Map.Entry<?, ?> entry : map.entrySet()) {
+                System.out.println(entry.getKey() + "=" + entry.getValue());
+            }
 
-		System.out.println("Recipe name: " + r.getName());
-		System.out.println("Kitchen: " + r.getKitchen().getName());
-		for(Ingredient i : r.getIngredients()) 
-		{
-			System.out.println("Ingredient: " + i.getName());
-		}
-	}
+            // close reader
+            reader.close();
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+
+    }
 }

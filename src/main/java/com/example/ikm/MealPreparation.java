@@ -12,10 +12,12 @@ import java.util.Scanner;
  */
 public class MealPreparation {
 	private static Recipe[] recipeArray;
+	private static Nutrition[] nutritionArray;
 	static Scanner s = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		recipeArray = new FileReader().getRecipes();
+		recipeArray = new RecipeReader().getRecipes();
+		nutritionArray = new NutrientReader().getNutritions();
 
 		System.out.println("Welcome to the Meal Prepper!");
 		System.out.println("What would you like to do?");
