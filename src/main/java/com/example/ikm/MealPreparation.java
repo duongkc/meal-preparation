@@ -32,7 +32,7 @@ public class MealPreparation
         boolean active = true;
         while (active) {
             String pick = s.nextLine();
-            if ("a".equals(pick) || "b".equals(pick) || "c".equals(pick)) {
+            if ("a".equals(pick) || "b".equals(pick) || "c".equals(pick) || "d".equals(pick)) {
                 run(pick);
                 active = false;
             } else {
