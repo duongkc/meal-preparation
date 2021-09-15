@@ -211,7 +211,7 @@ public class Recipe
 			if(nextLine.equals("done")) {
 				break;
 			}
-			addStringtoArray(newPreparations, nextLine);
+			newPreparations = addStringtoArray(newPreparations, nextLine);
 		}
 		System.out.println("New preparation: " + newPreparations);
 		this.setPreperation(newPreparations);
