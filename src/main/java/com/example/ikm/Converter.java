@@ -24,7 +24,6 @@ public class Converter {
 
 			// Bereken het resultaat en geef het weer
 			double factor = 1 / conversionTable[from] * conversionTable[to];
-			System.out.println("factor" + factor);
 			System.out.println(amount * factor);
 		} while (continueConverter);
 		in.close();

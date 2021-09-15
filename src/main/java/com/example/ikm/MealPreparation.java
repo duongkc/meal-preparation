@@ -90,7 +90,7 @@ public class MealPreparation {
 
 			System.out.println("Type 'a' to add a new recipe and 'b' to adjust an existing recipe");
 			String ans = s.nextLine();
-			
+
 			if ("a".equals(ans)) {
 				AddRecipe addRecipe = new AddRecipe();
 				try {
@@ -103,7 +103,7 @@ public class MealPreparation {
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
-				
+
 			} else if ("b".equals(ans)) {
 				System.out.println("Please enter the name of the recipe you would like to adjust.");
 				String recipeName = s.nextLine();
@@ -123,8 +123,6 @@ public class MealPreparation {
 
 				}
 			}
-
-		}
 
 		} else if ("e".equals(pick)) {
 			new Converter().convert();
