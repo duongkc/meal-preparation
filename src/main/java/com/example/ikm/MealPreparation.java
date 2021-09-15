@@ -1,8 +1,6 @@
 package com.example.ikm;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Class to
@@ -13,11 +11,13 @@ import java.util.Scanner;
 public class MealPreparation {
 	private static Recipe[] recipeArray;
 	private static Nutrition[] nutritionArray;
+	static Set<String> recipeIngredients;
 	static Scanner s = new Scanner(System.in);
 
 	public static void main(String[] args) {
 		recipeArray = new RecipeReader().getRecipes();
 		nutritionArray = new NutrientReader().getNutritions();
+		getTags();
 
 		System.out.println("Welcome to the Meal Prepper!");
 		System.out.println("What would you like to do?");
@@ -25,6 +25,21 @@ public class MealPreparation {
 				+ "\nPress 'b' if you want a random meal suggestion" + "\nPress 'c' to show all recipes"
 				+ "\nPress 'd' to adjust a recipe." + "\nPress 'e' to convert measurements.");
 		startChoice();
+	}
+
+	private static void getTags() {
+		recipeIngredients = new TreeSet<>();
+
+		// Use loop with available ingredients in every recipe later on
+		recipeIngredients.add("egg");
+		recipeIngredients.add("milk");
+		recipeIngredients.add("potato");
+//		for (Recipe recipe : recipeArray) {
+////			for (String tag: recipe.getTags()){
+////				System.out.println(tag);
+////				recipeIngredients.add(tag);
+////			}
+//		}
 	}
 
 	private static void startChoice() {
@@ -45,12 +60,7 @@ public class MealPreparation {
 	private static void run(String pick) {
 		System.out.println("You've picked something: " + pick);
 		if ("a".equals(pick)) {
-			ArrayList<String> recipeIngredients = new ArrayList<>();
 
-			// Use loop with available ingredients in every recipe later on
-			recipeIngredients.add("egg");
-			recipeIngredients.add("milk");
-			recipeIngredients.add("potato");
 			System.out.println("What's in your fridge? Choose from the following:");
 			System.out.println(recipeIngredients);
 			System.out.println("Type 'done' when you're done");
