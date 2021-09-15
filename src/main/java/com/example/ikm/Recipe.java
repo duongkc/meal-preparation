@@ -2,7 +2,7 @@ package com.example.ikm;
 
 import java.util.Scanner;
 
-public abstract class Recipe 
+public class Recipe 
 {
 	private int itemId;
 	private int type;
