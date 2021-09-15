@@ -7,6 +7,7 @@ public class AddRecipe {
 	Recipe addRecipe(Scanner sc, Recipe[] recipeArray) throws WrongRecipeInputException{
 		
 		Recipe recipe = new Recipe();
+		
 		// get highest ItemID of existing recipes and increment by 1 for recipe.setItemID(); 
 		int highestId = 0;
 		for(int i = 0; i < recipeArray.length; i++) {
