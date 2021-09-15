@@ -6,17 +6,6 @@ public class AddRecipe {
 	
 	Recipe addRecipe(Scanner sc) throws Exception{
 		int itemId;
-		//int type;
-		//int duration;
-		//int portions;
-		//boolean vegetarian;
-		//String dish;
-		//String kitchen;
-		//String hint;
-		String[] ingredients;
-		//String[] preperations;
-		//String image;
-		//String source;
 		
 		Recipe recipe = new Recipe();
 		// get highest ItemID of existing recipes and increment by 1 for recipe.setItemID(); 
@@ -39,7 +28,28 @@ public class AddRecipe {
 		}
 		
 		// Add Ingredients
-		
+		String name;
+		String type;
+		String anotherIngredient;
+		boolean done = false;
+		Ingredient[] ingredients = new Ingredient[0];
+		while(!done) {
+			System.out.println("Enter an ingredient name");
+			name = sc.nextLine();
+			System.out.println("Enter an ingredient type. Think of: Dairy, Vegetables, Meat, etc., or other if type is unknown.");
+			type = sc.nextLine();
+			Ingredient newIngredient = new Ingredient(name);
+			newIngredient.setType(type);
+			ingredients = addIngredienttoArray(ingredients, newIngredient);
+			
+			System.out.println("Do you want to add another ingredient? Type 'y' for yes and 'n' for no.");
+			anotherIngredient = sc.nextLine();
+			if(anotherIngredient.equals("n")) {
+				done = true;
+			} else if(!anotherIngredient.equals("y")) {
+				throw new WrongRecipeInputException("You could only answer 'y' or 'n' to this question.");
+			}
+		}
 		// Add vegetarian
 		System.out.println("Is the dish vegetarian? Type 'y' for yes and 'n' for no.");
 		String vegetarian = sc.nextLine();
@@ -123,6 +133,15 @@ public class AddRecipe {
 			throw new WrongRecipeInputException("You could only answer 'y' or 'n' to this question.");
 		}
 		return recipe;
+	}
+
+	private Ingredient[] addIngredienttoArray(Ingredient[] array, Ingredient ingredient) {
+		Ingredient[] newArray = new Ingredient[array.length + 1];
+		for(int i = 0; i < array.length; i++) {
+			newArray[i] = array[i];
+		}
+		newArray[array.length] = ingredient;
+		return newArray;
 	}
 
 	private String[] addStringtoArray(String[] array, String string) {
