@@ -5,13 +5,13 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
-
 import com.google.gson.Gson;
 
 public class FileReader {
 	private String filePath;
 	private String fileText;
 	private Recipe[] recipeArray;
+
 
 	public FileReader() {
 		filePath = "recipe.json";

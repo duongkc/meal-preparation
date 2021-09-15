@@ -24,7 +24,7 @@ public class MealPreparation
         System.out.println("What would you like to do?");
         System.out.println("Press 'a' if you want a meal suggestion based on what's in your fridge" +
                 "\nPress 'b' if you want a random meal suggestion" +
-                "\nPress 'c' to show all recipes");
+                "\nPress 'c' to show all recipes" + "\nPress 'd' to adjust a recipe.");
         startChoice();
     }
 
@@ -32,7 +32,7 @@ public class MealPreparation
         boolean active = true;
         while (active) {
             String pick = s.nextLine();
-            if ("a".equals(pick) || "b".equals(pick) || "c".equals(pick)) {
+            if ("a".equals(pick) || "b".equals(pick) || "c".equals(pick) || "d".equals(pick)) {
                 run(pick);
                 active = false;
             } else {
@@ -87,14 +87,25 @@ public class MealPreparation
                 System.out.println("How about [.........]?");
             } else if ("c".equals(pick)) {
                 System.out.println("Here's a list of all available recipes: ");
+            } else if("d".equals(pick)) {
+            	System.out.println("Please enter the name of the recipe you would like to adjust.");
+            	String recipeName = s.nextLine();
+            	for(int i = 0; i < recipeArray.length; i++) {
+            		if (recipeArray[i].getName().equals(recipeName)) {
+            			String[] ingredientTypes = {"dairy", "vegetables", "meat"};
+            			recipeArray[i].adjustRecipe(s, ingredientTypes);
+            		}
+            	}
+            		
             }
-    }
 
-    static void wait(int ms){
-        try {
-            Thread.sleep(ms);
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
-    }
+	}
+
+	static void wait(int ms) {
+		try {
+			Thread.sleep(ms);
+		} catch (InterruptedException e) {
+			Thread.currentThread().interrupt();
+		}
+	}
 }
