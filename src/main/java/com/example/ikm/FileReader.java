@@ -20,25 +20,44 @@ public class FileReader {
 		readJson();
 	}
 
-	public static String getJsonAsString(String filePath) {
+	public static String getJsonAsString(String filePath) 
+	{
 		StringBuilder contentBuilder = new StringBuilder();
-		try {
+		try 
+		{
 			Stream<String> stream = Files.lines(Paths.get(filePath), StandardCharsets.UTF_8);
 			stream.forEach(s -> contentBuilder.append(s).append("\n"));
 			stream.close();
-		} catch (IOException e) {
+		} 
+		catch (IOException e) 
+		{
 			e.printStackTrace();
 		}
 
 		return contentBuilder.toString();
 	}
 
-	public void readJson() {
+	public void readJson() 
+	{
 		Gson gson = new Gson();
 		recipeArray = gson.fromJson(fileText, Recipe[].class);
 	}
 
-	public Recipe[] getRecipes() {
+	public Recipe[] getRecipes() 
+	{
 		return recipeArray;
+	}
+	
+	/* Just a test method, can be ignored. */
+	public void testing() 
+	{
+		Recipe r = recipeArray[1];
+
+		System.out.println("Recipe name: " + r.getName());
+		System.out.println("Kitchen: " + r.getKitchen().getName());
+		for(Ingredient i : r.getIngredients()) 
+		{
+			System.out.println("Ingredient: " + i.getName());
+		}
 	}
 }
