@@ -1,14 +1,14 @@
 package com.example.ikm;
 
-public class Dish 
+public class Kitchen 
 {
 	private String name;
 	
-	public Dish() 
+	public Kitchen() 
 	{
 		name = "";
 	}
-	public Dish(String name) 
+	public Kitchen(String name) 
 	{
 		this.name = name;
 	}
