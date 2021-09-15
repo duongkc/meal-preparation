@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 /**
  * Class to
  *
- * @author Kim Chau Duong
+ * @author Melany
  * @version 1.0
  */
 public class FileReader {
