@@ -1,6 +1,9 @@
 package com.example.ikm;
 
-public class Food 
+public class Food extends Recipe
 {
+	boolean vegetarian;
+	
+	
 
 }
