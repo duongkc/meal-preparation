@@ -22,8 +22,7 @@ public class Recipe
 	
 	public Recipe()
 	{
-		// Will have to convert the String info to the classes/objects in their respective get methods.
-		// I noticed that in the ingredients there's also texts like "[main]" and "[Sauce]" etc which are parts of the recipe;
+		
 	}
 	
 	public Recipe(int itemId, int type, int duration, int portions, boolean vegetarian, String name, String dish, String kitchen, String hint, String[] ingredients, String[] preparations, String[] tags)
