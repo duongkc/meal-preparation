@@ -3,11 +3,13 @@ package com.example.ikm;
 
 import com.google.gson.Gson;
 
-public class RecipeReader extends FileReader {
+public class RecipeReader extends FileReader 
+{
 
 	private Recipe[] recipeArray;
 
-	public RecipeReader() {
+	public RecipeReader() 
+	{
 		filePath = "recipe.json";
 		fileText = getJsonAsString(filePath);
 
